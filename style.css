@@ -1,0 +1,22 @@
+#map {
+    position: relative;
+    margin: 100px auto 50px;
+    background: url('./images/map2.jpg') center / contain no-repeat;
+    height: 360px;
+    width: 600px;
+
+}
+
+#map > img {
+    position: absolute;
+    width: 50px;
+    display: none;
+    transform: translate(-50%, -50%);
+}
+
+#hint {
+    text-align: center;
+    font-family: 'segoe ui', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
